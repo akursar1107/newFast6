@@ -689,7 +689,7 @@ function App() {
                   {filteredGames.map(game => {
                     const pick = data?.picks[game.game_id];
                     const result = data?.results[game.game_id];
-                    const isFinished = game.game_status === 'POST';
+                    const isFinished = game.game_status === 'POST' || !!result;
                     
                     let cardClass = "glass-card game-card";
                     if (isFinished) cardClass += " finished";

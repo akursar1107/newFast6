@@ -1,0 +1,43 @@
+name: Auto-Grade NFL Picks
+
+on:
+  schedule:
+    # Runs every Tuesday at 13:00 UTC (9:00 AM EST / 8:00 AM EDT) after Monday Night Football finishes
+    - cron: '0 13 * * 2'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write # Required to push updated data.json back to repo
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Grading Script
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python scripts/grade.py
+
+      - name: Commit and Push data.json Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-grade NFL picks and update data.json [skip ci]"
+            git push
+          else
+            echo "No changes to data.json"
+          fi
