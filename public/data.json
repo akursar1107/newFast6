@@ -2,17 +2,504 @@
   "settings": {
     "season": 2025,
     "participants": [
-      "Charlie",
-      "Alice",
-      "Frank",
-      "Grace",
-      "David",
-      "Eve",
-      "Bob"
+      "Phil",
+      "Anders",
+      "Neil",
+      "Dan C",
+      "Tony",
+      "Luke",
+      "Jeremy"
     ],
     "locked": true
   },
-  "picks": {},
+  "picks": {
+    "2025_01_DAL_PHI": {
+      "player_id": "00-0035676",
+      "player_name": "A.J. Brown",
+      "points": 0,
+      "graded": true
+    },
+    "2025_01_KC_LAC": {
+      "player_id": "00-0039894",
+      "player_name": "Xavier Worthy",
+      "points": 0,
+      "graded": true
+    },
+    "2025_01_BAL_BUF": {
+      "player_id": "00-0036988",
+      "player_name": "Josh Palmer",
+      "points": 0,
+      "graded": true
+    },
+    "2025_01_MIN_CHI": {
+      "player_id": "00-0035229",
+      "player_name": "T.J. Hockenson",
+      "points": 0,
+      "graded": true
+    },
+    "2025_02_WAS_GB": {
+      "player_id": "00-0038996",
+      "player_name": "Tucker Kraft",
+      "points": 1,
+      "graded": true
+    },
+    "2025_02_ATL_MIN": {
+      "player_id": "00-0039917",
+      "player_name": "Michael Penix Jr.",
+      "points": 0,
+      "graded": true
+    },
+    "2025_02_TB_HOU": {
+      "player_id": "00-0032385",
+      "player_name": "Sterling Shepard",
+      "points": 0,
+      "graded": true
+    },
+    "2025_02_LAC_LV": {
+      "player_id": "00-0039915",
+      "player_name": "Ladd McConkey",
+      "points": 0,
+      "graded": true
+    },
+    "2025_03_MIA_BUF": {
+      "player_id": "00-0035689",
+      "player_name": "Dawson Knox",
+      "points": 0,
+      "graded": true
+    },
+    "2025_03_KC_NYG": {
+      "player_id": "00-0033923",
+      "player_name": "Kareem Hunt",
+      "points": 1,
+      "graded": true
+    },
+    "2025_03_DET_BAL": {
+      "player_id": "00-0039064",
+      "player_name": "Zay Flowers",
+      "points": 0,
+      "graded": true
+    },
+    "2025_04_SEA_ARI": {
+      "player_id": "00-0033908",
+      "player_name": "Cooper Kupp",
+      "points": 0,
+      "graded": true
+    },
+    "2025_04_GB_DAL": {
+      "player_id": "00-0040667",
+      "player_name": "Matthew Golden",
+      "points": 0,
+      "graded": true
+    },
+    "2025_04_NYJ_MIA": {
+      "player_id": "00-0036945",
+      "player_name": "Justin Fields",
+      "points": 1,
+      "graded": true
+    },
+    "2025_04_CIN_DEN": {
+      "player_id": "00-0038976",
+      "player_name": "Marvin Mims Jr.",
+      "points": 1,
+      "graded": true
+    },
+    "2025_05_SF_LA": {
+      "player_id": "00-0033280",
+      "player_name": "Christian McCaffrey",
+      "points": 1,
+      "graded": true
+    },
+    "2025_05_NE_BUF": {
+      "player_id": "00-0035689",
+      "player_name": "Dawson Knox",
+      "points": 0,
+      "graded": true
+    },
+    "2025_05_KC_JAX": {
+      "player_id": "00-0039894",
+      "player_name": "Xavier Worthy",
+      "points": 0,
+      "graded": true
+    },
+    "2025_06_PHI_NYG": {
+      "player_id": "00-0035676",
+      "player_name": "A.J. Brown",
+      "points": 0,
+      "graded": true
+    },
+    "2025_06_DET_KC": {
+      "player_id": "00-0038104",
+      "player_name": "Tyquan Thornton",
+      "points": 0,
+      "graded": true
+    },
+    "2025_06_BUF_ATL": {
+      "player_id": "00-0036988",
+      "player_name": "Josh Palmer",
+      "points": 0,
+      "graded": true
+    },
+    "2025_06_CHI_WAS": {
+      "player_id": "00-0030061",
+      "player_name": "Zach Ertz",
+      "points": 1,
+      "graded": true
+    },
+    "2025_07_PIT_CIN": {
+      "player_id": "00-0036919",
+      "player_name": "Kenneth Gainwell",
+      "points": 0,
+      "graded": true
+    },
+    "2025_07_ATL_SF": {
+      "player_id": "00-0033288",
+      "player_name": "George Kittle",
+      "points": 0,
+      "graded": true
+    },
+    "2025_07_TB_DET": {
+      "player_id": "00-0036963",
+      "player_name": "Amon-Ra St. Brown",
+      "points": 3,
+      "graded": true
+    },
+    "2025_07_HOU_SEA": {
+      "player_id": "00-0033908",
+      "player_name": "Cooper Kupp",
+      "points": 0,
+      "graded": true
+    },
+    "2025_08_MIN_LAC": {
+      "player_id": "00-0038994",
+      "player_name": "Jordan Addison",
+      "points": 1,
+      "graded": true
+    },
+    "2025_08_GB_PIT": {
+      "player_id": "00-0040667",
+      "player_name": "Matthew Golden",
+      "points": 0,
+      "graded": true
+    },
+    "2025_08_WAS_KC": {
+      "player_id": "00-0039894",
+      "player_name": "Xavier Worthy",
+      "points": 0,
+      "graded": true
+    },
+    "2025_09_BAL_MIA": {
+      "player_id": "00-0036550",
+      "player_name": "Rashod Bateman",
+      "points": 1,
+      "graded": true
+    },
+    "2025_09_SEA_WAS": {
+      "player_id": "00-0039793",
+      "player_name": "AJ Barner",
+      "points": 1,
+      "graded": true
+    },
+    "2025_09_ARI_DAL": {
+      "player_id": "00-0038041",
+      "player_name": "Jake Ferguson",
+      "points": 0,
+      "graded": true
+    },
+    "2025_10_LV_DEN": {
+      "player_id": "00-0034348",
+      "player_name": "Courtland Sutton",
+      "points": 0,
+      "graded": true
+    },
+    "2025_10_PIT_LAC": {
+      "player_id": "00-0040189",
+      "player_name": "Oronde Gadsden II",
+      "points": 0,
+      "graded": true
+    },
+    "2025_10_PHI_GB": {
+      "player_id": "00-0038124",
+      "player_name": "Christian Watson",
+      "points": 0,
+      "graded": true
+    },
+    "2025_11_NYJ_NE": {
+      "player_id": "00-0033090",
+      "player_name": "Hunter Henry",
+      "points": 0,
+      "graded": true
+    },
+    "2025_11_DET_PHI": {
+      "player_id": "00-0037240",
+      "player_name": "Jameson Williams",
+      "points": 3,
+      "graded": true
+    },
+    "2025_11_DAL_LV": {
+      "player_id": "00-0036358",
+      "player_name": "CeeDee Lamb",
+      "points": 3,
+      "graded": true
+    },
+    "2025_12_BUF_HOU": {
+      "player_id": "00-0037248",
+      "player_name": "James Cook",
+      "points": 3,
+      "graded": true
+    },
+    "2025_12_TB_LA": {
+      "player_id": "00-0039075",
+      "player_name": "Puka Nacua",
+      "points": 0,
+      "graded": true
+    },
+    "2025_12_CAR_SF": {
+      "player_id": "00-0033288",
+      "player_name": "George Kittle",
+      "points": 0,
+      "graded": true
+    },
+    "2025_13_CIN_BAL": {
+      "player_id": "00-0034753",
+      "player_name": "Mark Andrews",
+      "points": 0,
+      "graded": true
+    },
+    "2025_13_GB_DET": {
+      "player_id": "00-0038393",
+      "player_name": "Dontayvion Wicks",
+      "points": 3,
+      "graded": true
+    },
+    "2025_13_KC_DAL": {
+      "player_id": "00-0037247",
+      "player_name": "George Pickens",
+      "points": 0,
+      "graded": true
+    },
+    "2025_13_CHI_PHI": {
+      "player_id": "00-0034351",
+      "player_name": "Dallas Goedert",
+      "points": 0,
+      "graded": true
+    },
+    "2025_13_DEN_WAS": {
+      "player_id": "00-0039868",
+      "player_name": "Troy Franklin",
+      "points": 0,
+      "graded": true
+    },
+    "2025_13_NYG_NE": {
+      "player_id": "00-0040691",
+      "player_name": "Jaxson Dart",
+      "points": 0,
+      "graded": true
+    },
+    "2025_14_DAL_DET": {
+      "player_id": "00-0037247",
+      "player_name": "George Pickens",
+      "points": 0,
+      "graded": true
+    },
+    "2025_14_HOU_KC": {
+      "player_id": "00-0039894",
+      "player_name": "Xavier Worthy",
+      "points": 0,
+      "graded": true
+    },
+    "2025_14_PHI_LAC": {
+      "player_id": "00-0039915",
+      "player_name": "Ladd McConkey",
+      "points": 0,
+      "graded": true
+    },
+    "2025_15_ATL_TB": {
+      "player_id": "00-0037263",
+      "player_name": "Tyler Allgeier",
+      "points": 0,
+      "graded": true
+    },
+    "2025_15_MIN_DAL": {
+      "player_id": "00-0037247",
+      "player_name": "George Pickens",
+      "points": 0,
+      "graded": true
+    },
+    "2025_15_MIA_PIT": {
+      "player_id": "00-0036613",
+      "player_name": "Jaylen Waddle",
+      "points": 0,
+      "graded": true
+    },
+    "2025_16_LA_SEA": {
+      "player_id": "00-0037840",
+      "player_name": "Kyren Williams",
+      "points": 0,
+      "graded": true
+    },
+    "2025_16_GB_CHI": {
+      "player_id": "00-0035208",
+      "player_name": "Olamide Zaccheaus",
+      "points": 0,
+      "graded": true
+    },
+    "2025_16_PHI_WAS": {
+      "player_id": "00-0034351",
+      "player_name": "Dallas Goedert",
+      "points": 1,
+      "graded": true
+    },
+    "2025_16_NE_BAL": {
+      "player_id": "00-0040734",
+      "player_name": "TreVeyon Henderson",
+      "points": 0,
+      "graded": true
+    },
+    "2025_16_SF_IND": {
+      "player_id": "00-0036259",
+      "player_name": "Jauan Jennings",
+      "points": 1,
+      "graded": true
+    },
+    "2025_17_DET_MIN": {
+      "player_id": "00-0037240",
+      "player_name": "Jameson Williams",
+      "points": 0,
+      "graded": true
+    },
+    "2025_17_DAL_WAS": {
+      "player_id": "00-0036358",
+      "player_name": "CeeDee Lamb",
+      "points": 0,
+      "graded": true
+    },
+    "2025_17_DEN_KC": {
+      "player_id": "00-0034348",
+      "player_name": "Courtland Sutton",
+      "points": 0,
+      "graded": true
+    },
+    "2025_17_BAL_GB": {
+      "player_id": "00-0039064",
+      "player_name": "Zay Flowers",
+      "points": 1,
+      "graded": true
+    },
+    "2025_17_HOU_LAC": {
+      "player_id": "00-0038544",
+      "player_name": "Quentin Johnston",
+      "points": 0,
+      "graded": true
+    },
+    "2025_17_CHI_SF": {
+      "player_id": "00-0034827",
+      "player_name": "DJ Moore",
+      "points": 0,
+      "graded": true
+    },
+    "2025_17_LA_ATL": {
+      "player_id": "00-0040737",
+      "player_name": "Terrance Ferguson",
+      "points": 1,
+      "graded": true
+    },
+    "2025_18_SEA_SF": {
+      "player_id": "00-0033288",
+      "player_name": "George Kittle",
+      "points": 0,
+      "graded": true
+    },
+    "2025_18_CAR_TB": {
+      "player_id": "00-0039361",
+      "player_name": "Bucky Irving",
+      "points": 0,
+      "graded": true
+    },
+    "2025_18_BAL_PIT": {
+      "player_id": "00-0036919",
+      "player_name": "Kenneth Gainwell",
+      "points": 1,
+      "graded": true
+    },
+    "2025_19_GB_CHI": {
+      "player_id": "00-0034827",
+      "player_name": "DJ Moore",
+      "points": 1,
+      "graded": true
+    },
+    "2025_19_LA_CAR": {
+      "player_id": "00-0039075",
+      "player_name": "Puka Nacua",
+      "points": 3,
+      "graded": true
+    },
+    "2025_19_BUF_JAX": {
+      "player_id": "00-0038606",
+      "player_name": "Parker Washington",
+      "points": 1,
+      "graded": true
+    },
+    "2025_19_SF_PHI": {
+      "player_id": "00-0034844",
+      "player_name": "Saquon Barkley",
+      "points": 0,
+      "graded": true
+    },
+    "2025_19_LAC_NE": {
+      "player_id": "00-0040189",
+      "player_name": "Oronde Gadsden II",
+      "points": 0,
+      "graded": true
+    },
+    "2025_19_HOU_PIT": {
+      "player_id": "00-0036554",
+      "player_name": "Nico Collins",
+      "points": 0,
+      "graded": true
+    },
+    "2025_20_BUF_DEN": {
+      "player_id": "00-0037248",
+      "player_name": "James Cook",
+      "points": 0,
+      "graded": true
+    },
+    "2025_20_SF_SEA": {
+      "player_id": "00-0039793",
+      "player_name": "AJ Barner",
+      "points": 0,
+      "graded": true
+    },
+    "2025_20_HOU_NE": {
+      "player_id": "00-0032392",
+      "player_name": "Austin Hooper",
+      "points": 0,
+      "graded": true
+    },
+    "2025_20_LA_CHI": {
+      "player_id": "00-0031381",
+      "player_name": "Davante Adams",
+      "points": 0,
+      "graded": true
+    },
+    "2025_21_NE_DEN": {
+      "player_id": "00-0035406",
+      "player_name": "Lil'Jordan Humphrey",
+      "points": 0,
+      "graded": true
+    },
+    "2025_21_LA_SEA": {
+      "player_id": "00-0031381",
+      "player_name": "Davante Adams",
+      "points": 1,
+      "graded": true
+    },
+    "2025_22_SEA_NE": {
+      "player_id": "00-0031588",
+      "player_name": "Stefon Diggs",
+      "points": 0,
+      "graded": true
+    }
+  },
   "results": {
     "2025_01_DAL_PHI": {
       "first_td_id": "00-0036997",
@@ -910,47 +1397,47 @@
     }
   },
   "standings": {
-    "Charlie": {
-      "points": 0,
-      "correct_first": 0,
-      "correct_anytime": 0,
-      "picks_made": 0
+    "Phil": {
+      "points": 9,
+      "correct_first": 2,
+      "correct_anytime": 3,
+      "picks_made": 12
     },
-    "Alice": {
-      "points": 0,
-      "correct_first": 0,
-      "correct_anytime": 0,
-      "picks_made": 0
+    "Anders": {
+      "points": 5,
+      "correct_first": 1,
+      "correct_anytime": 2,
+      "picks_made": 13
     },
-    "Frank": {
-      "points": 0,
-      "correct_first": 0,
-      "correct_anytime": 0,
-      "picks_made": 0
+    "Neil": {
+      "points": 6,
+      "correct_first": 1,
+      "correct_anytime": 3,
+      "picks_made": 12
     },
-    "Grace": {
-      "points": 0,
+    "Dan C": {
+      "points": 2,
       "correct_first": 0,
-      "correct_anytime": 0,
-      "picks_made": 0
+      "correct_anytime": 2,
+      "picks_made": 11
     },
-    "David": {
-      "points": 0,
-      "correct_first": 0,
-      "correct_anytime": 0,
-      "picks_made": 0
+    "Tony": {
+      "points": 5,
+      "correct_first": 1,
+      "correct_anytime": 2,
+      "picks_made": 12
     },
-    "Eve": {
-      "points": 0,
-      "correct_first": 0,
-      "correct_anytime": 0,
-      "picks_made": 0
+    "Luke": {
+      "points": 6,
+      "correct_first": 1,
+      "correct_anytime": 3,
+      "picks_made": 10
     },
-    "Bob": {
-      "points": 0,
+    "Jeremy": {
+      "points": 2,
       "correct_first": 0,
-      "correct_anytime": 0,
-      "picks_made": 0
+      "correct_anytime": 2,
+      "picks_made": 11
     }
   },
   "eligible_games": [
