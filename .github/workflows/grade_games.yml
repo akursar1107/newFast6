@@ -1,0 +1,38 @@
+name: Auto-Grade NFL Picks
+
+on:
+  schedule:
+    # Runs at 06:00 UTC (1:00 AM EST) every day
+    - cron: '0 6 * * *'
+    # Runs every 3 hours on Sundays, Mondays, and Thursdays during the season
+    - cron: '0 */3 * * 0,1,4'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to commit and push changes
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-year: '3.11'
+
+      - name: Run Grader Script
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          python3 scripts/grade.py
+
+      - name: Commit and Push Database Updates
+        run: |
+          git config --global user.name "NFL TD Scorer Bot"
+          git config --global user.email "bot@nfl-td-scorer.internal"
+          git add public/data.json public/players.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update NFL scores and pick grades" && git push)
