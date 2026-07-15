@@ -236,7 +236,8 @@ def run_grading(year=None):
                 "player_id": p.get("player_id"),
                 "player_name": p.get("player_name"),
                 "points": p.get("points", 0),
-                "graded": p.get("graded", False)
+                "graded": p.get("graded", False),
+                "picker": p.get("picker")
             } for p in picks_list}
         except Exception as e:
             print(f"Failed to query fast6_picks from Supabase: {e}")
@@ -294,11 +295,25 @@ def run_grading(year=None):
     # 4. Check rotation pickers
     participants = data["settings"].get("participants", [])
     
-    # Build dynamic game list with assigned picker
+    # Build dynamic game list with assigned picker (preserving manual pickers where possible)
+    existing_game_pickers = {}
+    if "eligible_games" in data:
+        for eg in data["eligible_games"]:
+            if eg.get("picker") and eg.get("picker") != "TBD":
+                existing_game_pickers[eg["game_id"]] = eg["picker"]
+
     game_assignments = {}
     for i, game in enumerate(eligible_games):
         game_id = game['game_id']
-        picker = participants[i % len(participants)] if participants else "TBD"
+        existing_pick = picks.get(game_id)
+        picker = "TBD"
+        if existing_pick and existing_pick.get("picker"):
+            picker = existing_pick.get("picker")
+        elif game_id in existing_game_pickers:
+            picker = existing_game_pickers[game_id]
+        elif participants:
+            picker = participants[i % len(participants)]
+            
         game_assignments[game_id] = {
             'game_id': game_id,
             'gameday': game.get('gameday'),
