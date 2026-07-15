@@ -5,9 +5,14 @@ on:
     # Runs every Tuesday at 13:00 UTC (9:00 AM EST / 8:00 AM EDT) after Monday Night Football finishes
     - cron: '0 13 * * 2'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+    inputs:
+      year:
+        description: 'Season year to initialize/grade (e.g. 2026)'
+        required: false
+        default: ''
 
 permissions:
-  contents: write # Required to push updated data.json back to repo
+  contents: write # Required to push updated files back to repo
 
 jobs:
   grade:
@@ -28,16 +33,16 @@ jobs:
         env:
           VITE_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python scripts/grade.py
+        run: python scripts/grade.py ${{ github.event.inputs.year }}
 
-      - name: Commit and Push data.json Updates
+      - name: Commit and Push Updates
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data.json
+          git add public/data.json public/players.json
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-grade NFL picks and update data.json [skip ci]"
+            git commit -m "Auto-grade NFL picks and update assets [skip ci]"
             git push
           else
-            echo "No changes to data.json"
+            echo "No changes to assets"
           fi
