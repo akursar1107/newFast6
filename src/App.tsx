@@ -170,13 +170,14 @@ function App() {
 
       const picksRes = await fetch(`${supabaseUrl}/rest/v1/fast6_picks?select=*`, { headers });
       const picksList = await picksRes.json();
-      const picks: Record<string, Pick> = {};
+      const picks: Record<string, Pick & { picker?: string }> = {};
       picksList.forEach((p: any) => {
         picks[p.game_id] = {
           player_id: p.player_id,
           player_name: p.player_name,
           points: p.points,
-          graded: p.graded
+          graded: p.graded,
+          picker: p.picker
         };
       });
 
@@ -196,8 +197,9 @@ function App() {
       const eligible_games = staticData.eligible_games || [];
 
       const participants = settings.participants || [];
-      const game_assignments = eligible_games.map((game: any, i: number) => {
-        const picker = participants[i % participants.length] || 'TBD';
+      const game_assignments = eligible_games.map((game: any) => {
+        const dbPick = picks[game.game_id] as any;
+        const picker = dbPick?.picker || game.picker || 'TBD';
         return { ...game, picker };
       });
 

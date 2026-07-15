@@ -1398,16 +1398,16 @@
   },
   "standings": {
     "Phil": {
-      "points": 9,
-      "correct_first": 2,
+      "points": 3,
+      "correct_first": 0,
       "correct_anytime": 3,
       "picks_made": 12
     },
     "Anders": {
-      "points": 5,
+      "points": 7,
       "correct_first": 1,
-      "correct_anytime": 2,
-      "picks_made": 13
+      "correct_anytime": 4,
+      "picks_made": 12
     },
     "Neil": {
       "points": 6,
@@ -1416,27 +1416,27 @@
       "picks_made": 12
     },
     "Dan C": {
-      "points": 2,
-      "correct_first": 0,
-      "correct_anytime": 2,
+      "points": 6,
+      "correct_first": 2,
+      "correct_anytime": 0,
       "picks_made": 11
     },
     "Tony": {
-      "points": 5,
-      "correct_first": 1,
+      "points": 2,
+      "correct_first": 0,
       "correct_anytime": 2,
       "picks_made": 12
     },
     "Luke": {
+      "points": 5,
+      "correct_first": 1,
+      "correct_anytime": 2,
+      "picks_made": 11
+    },
+    "Jeremy": {
       "points": 6,
       "correct_first": 1,
       "correct_anytime": 3,
-      "picks_made": 10
-    },
-    "Jeremy": {
-      "points": 2,
-      "correct_first": 0,
-      "correct_anytime": 2,
       "picks_made": 11
     }
   },
@@ -1449,7 +1449,7 @@
       "home_team": "PHI",
       "week": 1,
       "weekday": "Thursday",
-      "picker": "Charlie",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -1460,7 +1460,7 @@
       "home_team": "LAC",
       "week": 1,
       "weekday": "Friday",
-      "picker": "Alice",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -1471,7 +1471,7 @@
       "home_team": "BUF",
       "week": 1,
       "weekday": "Sunday",
-      "picker": "Frank",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -1482,7 +1482,7 @@
       "home_team": "CHI",
       "week": 1,
       "weekday": "Monday",
-      "picker": "Grace",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -1493,7 +1493,7 @@
       "home_team": "GB",
       "week": 2,
       "weekday": "Thursday",
-      "picker": "David",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -1504,7 +1504,7 @@
       "home_team": "MIN",
       "week": 2,
       "weekday": "Sunday",
-      "picker": "Eve",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -1515,7 +1515,7 @@
       "home_team": "HOU",
       "week": 2,
       "weekday": "Monday",
-      "picker": "Bob",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -1526,7 +1526,7 @@
       "home_team": "LV",
       "week": 2,
       "weekday": "Monday",
-      "picker": "Charlie",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -1537,7 +1537,7 @@
       "home_team": "BUF",
       "week": 3,
       "weekday": "Thursday",
-      "picker": "Alice",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -1548,7 +1548,7 @@
       "home_team": "NYG",
       "week": 3,
       "weekday": "Sunday",
-      "picker": "Frank",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -1559,7 +1559,7 @@
       "home_team": "BAL",
       "week": 3,
       "weekday": "Monday",
-      "picker": "Grace",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -1570,18 +1570,7 @@
       "home_team": "ARI",
       "week": 4,
       "weekday": "Thursday",
-      "picker": "David",
-      "game_status": "POST"
-    },
-    {
-      "game_id": "2025_04_MIN_PIT",
-      "gameday": "2025-09-28",
-      "gametime": "09:30",
-      "away_team": "MIN",
-      "home_team": "PIT",
-      "week": 4,
-      "weekday": "Sunday",
-      "picker": "Eve",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -1592,7 +1581,7 @@
       "home_team": "DAL",
       "week": 4,
       "weekday": "Sunday",
-      "picker": "Bob",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -1603,7 +1592,7 @@
       "home_team": "MIA",
       "week": 4,
       "weekday": "Monday",
-      "picker": "Charlie",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -1614,7 +1603,7 @@
       "home_team": "DEN",
       "week": 4,
       "weekday": "Monday",
-      "picker": "Alice",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -1625,18 +1614,7 @@
       "home_team": "LA",
       "week": 5,
       "weekday": "Thursday",
-      "picker": "Frank",
-      "game_status": "POST"
-    },
-    {
-      "game_id": "2025_05_MIN_CLE",
-      "gameday": "2025-10-05",
-      "gametime": "09:30",
-      "away_team": "MIN",
-      "home_team": "CLE",
-      "week": 5,
-      "weekday": "Sunday",
-      "picker": "Grace",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -1647,7 +1625,7 @@
       "home_team": "BUF",
       "week": 5,
       "weekday": "Sunday",
-      "picker": "David",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -1658,7 +1636,7 @@
       "home_team": "JAX",
       "week": 5,
       "weekday": "Monday",
-      "picker": "Eve",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -1669,18 +1647,7 @@
       "home_team": "NYG",
       "week": 6,
       "weekday": "Thursday",
-      "picker": "Bob",
-      "game_status": "POST"
-    },
-    {
-      "game_id": "2025_06_DEN_NYJ",
-      "gameday": "2025-10-12",
-      "gametime": "09:30",
-      "away_team": "DEN",
-      "home_team": "NYJ",
-      "week": 6,
-      "weekday": "Sunday",
-      "picker": "Charlie",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -1691,7 +1658,7 @@
       "home_team": "KC",
       "week": 6,
       "weekday": "Sunday",
-      "picker": "Alice",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -1702,7 +1669,7 @@
       "home_team": "ATL",
       "week": 6,
       "weekday": "Monday",
-      "picker": "Frank",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -1713,7 +1680,7 @@
       "home_team": "WAS",
       "week": 6,
       "weekday": "Monday",
-      "picker": "Grace",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -1724,18 +1691,7 @@
       "home_team": "CIN",
       "week": 7,
       "weekday": "Thursday",
-      "picker": "David",
-      "game_status": "POST"
-    },
-    {
-      "game_id": "2025_07_LA_JAX",
-      "gameday": "2025-10-19",
-      "gametime": "09:30",
-      "away_team": "LA",
-      "home_team": "JAX",
-      "week": 7,
-      "weekday": "Sunday",
-      "picker": "Eve",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -1746,7 +1702,7 @@
       "home_team": "SF",
       "week": 7,
       "weekday": "Sunday",
-      "picker": "Bob",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -1757,7 +1713,7 @@
       "home_team": "DET",
       "week": 7,
       "weekday": "Monday",
-      "picker": "Charlie",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -1768,7 +1724,7 @@
       "home_team": "SEA",
       "week": 7,
       "weekday": "Monday",
-      "picker": "Alice",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -1779,7 +1735,7 @@
       "home_team": "LAC",
       "week": 8,
       "weekday": "Thursday",
-      "picker": "Frank",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -1790,7 +1746,7 @@
       "home_team": "PIT",
       "week": 8,
       "weekday": "Sunday",
-      "picker": "Grace",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -1801,7 +1757,7 @@
       "home_team": "KC",
       "week": 8,
       "weekday": "Monday",
-      "picker": "David",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -1812,7 +1768,7 @@
       "home_team": "MIA",
       "week": 9,
       "weekday": "Thursday",
-      "picker": "Eve",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -1823,7 +1779,7 @@
       "home_team": "WAS",
       "week": 9,
       "weekday": "Sunday",
-      "picker": "Bob",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -1834,7 +1790,7 @@
       "home_team": "DAL",
       "week": 9,
       "weekday": "Monday",
-      "picker": "Charlie",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -1845,18 +1801,7 @@
       "home_team": "DEN",
       "week": 10,
       "weekday": "Thursday",
-      "picker": "Alice",
-      "game_status": "POST"
-    },
-    {
-      "game_id": "2025_10_ATL_IND",
-      "gameday": "2025-11-09",
-      "gametime": "09:30",
-      "away_team": "ATL",
-      "home_team": "IND",
-      "week": 10,
-      "weekday": "Sunday",
-      "picker": "Frank",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -1867,7 +1812,7 @@
       "home_team": "LAC",
       "week": 10,
       "weekday": "Sunday",
-      "picker": "Grace",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -1878,7 +1823,7 @@
       "home_team": "GB",
       "week": 10,
       "weekday": "Monday",
-      "picker": "David",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -1889,18 +1834,7 @@
       "home_team": "NE",
       "week": 11,
       "weekday": "Thursday",
-      "picker": "Eve",
-      "game_status": "POST"
-    },
-    {
-      "game_id": "2025_11_WAS_MIA",
-      "gameday": "2025-11-16",
-      "gametime": "09:30",
-      "away_team": "WAS",
-      "home_team": "MIA",
-      "week": 11,
-      "weekday": "Sunday",
-      "picker": "Bob",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -1911,7 +1845,7 @@
       "home_team": "PHI",
       "week": 11,
       "weekday": "Sunday",
-      "picker": "Charlie",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -1922,7 +1856,7 @@
       "home_team": "LV",
       "week": 11,
       "weekday": "Monday",
-      "picker": "Alice",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -1933,7 +1867,7 @@
       "home_team": "HOU",
       "week": 12,
       "weekday": "Thursday",
-      "picker": "Frank",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -1944,7 +1878,7 @@
       "home_team": "LA",
       "week": 12,
       "weekday": "Sunday",
-      "picker": "Grace",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -1955,7 +1889,7 @@
       "home_team": "SF",
       "week": 12,
       "weekday": "Monday",
-      "picker": "David",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -1966,7 +1900,7 @@
       "home_team": "DET",
       "week": 13,
       "weekday": "Thursday",
-      "picker": "Eve",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -1977,7 +1911,7 @@
       "home_team": "DAL",
       "week": 13,
       "weekday": "Thursday",
-      "picker": "Bob",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -1988,7 +1922,7 @@
       "home_team": "BAL",
       "week": 13,
       "weekday": "Thursday",
-      "picker": "Charlie",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -1999,7 +1933,7 @@
       "home_team": "PHI",
       "week": 13,
       "weekday": "Friday",
-      "picker": "Alice",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -2010,7 +1944,7 @@
       "home_team": "WAS",
       "week": 13,
       "weekday": "Sunday",
-      "picker": "Frank",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -2021,7 +1955,7 @@
       "home_team": "NE",
       "week": 13,
       "weekday": "Monday",
-      "picker": "Grace",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -2032,7 +1966,7 @@
       "home_team": "DET",
       "week": 14,
       "weekday": "Thursday",
-      "picker": "David",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -2043,7 +1977,7 @@
       "home_team": "KC",
       "week": 14,
       "weekday": "Sunday",
-      "picker": "Eve",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -2054,7 +1988,7 @@
       "home_team": "LAC",
       "week": 14,
       "weekday": "Monday",
-      "picker": "Bob",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -2065,7 +1999,7 @@
       "home_team": "TB",
       "week": 15,
       "weekday": "Thursday",
-      "picker": "Charlie",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -2076,7 +2010,7 @@
       "home_team": "DAL",
       "week": 15,
       "weekday": "Sunday",
-      "picker": "Alice",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -2087,7 +2021,7 @@
       "home_team": "PIT",
       "week": 15,
       "weekday": "Monday",
-      "picker": "Frank",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -2098,7 +2032,7 @@
       "home_team": "SEA",
       "week": 16,
       "weekday": "Thursday",
-      "picker": "Grace",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -2109,7 +2043,7 @@
       "home_team": "WAS",
       "week": 16,
       "weekday": "Saturday",
-      "picker": "David",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -2120,7 +2054,7 @@
       "home_team": "CHI",
       "week": 16,
       "weekday": "Saturday",
-      "picker": "Eve",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -2131,7 +2065,7 @@
       "home_team": "BAL",
       "week": 16,
       "weekday": "Sunday",
-      "picker": "Bob",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -2142,7 +2076,7 @@
       "home_team": "IND",
       "week": 16,
       "weekday": "Monday",
-      "picker": "Charlie",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -2153,7 +2087,7 @@
       "home_team": "WAS",
       "week": 17,
       "weekday": "Thursday",
-      "picker": "Alice",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -2164,7 +2098,7 @@
       "home_team": "MIN",
       "week": 17,
       "weekday": "Thursday",
-      "picker": "Frank",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -2175,7 +2109,7 @@
       "home_team": "KC",
       "week": 17,
       "weekday": "Thursday",
-      "picker": "Grace",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -2186,7 +2120,7 @@
       "home_team": "LAC",
       "week": 17,
       "weekday": "Saturday",
-      "picker": "David",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -2197,7 +2131,7 @@
       "home_team": "GB",
       "week": 17,
       "weekday": "Saturday",
-      "picker": "Eve",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -2208,7 +2142,7 @@
       "home_team": "SF",
       "week": 17,
       "weekday": "Sunday",
-      "picker": "Bob",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -2219,7 +2153,7 @@
       "home_team": "ATL",
       "week": 17,
       "weekday": "Monday",
-      "picker": "Charlie",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -2230,7 +2164,7 @@
       "home_team": "TB",
       "week": 18,
       "weekday": "Saturday",
-      "picker": "Alice",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -2241,7 +2175,7 @@
       "home_team": "SF",
       "week": 18,
       "weekday": "Saturday",
-      "picker": "Frank",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -2252,7 +2186,7 @@
       "home_team": "PIT",
       "week": 18,
       "weekday": "Sunday",
-      "picker": "Grace",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -2263,7 +2197,7 @@
       "home_team": "CAR",
       "week": 19,
       "weekday": "Saturday",
-      "picker": "David",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -2274,7 +2208,7 @@
       "home_team": "CHI",
       "week": 19,
       "weekday": "Saturday",
-      "picker": "Eve",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -2285,7 +2219,7 @@
       "home_team": "JAX",
       "week": 19,
       "weekday": "Sunday",
-      "picker": "Bob",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -2296,7 +2230,7 @@
       "home_team": "PHI",
       "week": 19,
       "weekday": "Sunday",
-      "picker": "Charlie",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -2307,7 +2241,7 @@
       "home_team": "NE",
       "week": 19,
       "weekday": "Sunday",
-      "picker": "Alice",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -2318,7 +2252,7 @@
       "home_team": "PIT",
       "week": 19,
       "weekday": "Monday",
-      "picker": "Frank",
+      "picker": "Dan C",
       "game_status": "POST"
     },
     {
@@ -2329,7 +2263,7 @@
       "home_team": "DEN",
       "week": 20,
       "weekday": "Saturday",
-      "picker": "Grace",
+      "picker": "Tony",
       "game_status": "POST"
     },
     {
@@ -2340,7 +2274,7 @@
       "home_team": "SEA",
       "week": 20,
       "weekday": "Saturday",
-      "picker": "David",
+      "picker": "Luke",
       "game_status": "POST"
     },
     {
@@ -2351,7 +2285,7 @@
       "home_team": "NE",
       "week": 20,
       "weekday": "Sunday",
-      "picker": "Eve",
+      "picker": "Jeremy",
       "game_status": "POST"
     },
     {
@@ -2362,7 +2296,7 @@
       "home_team": "CHI",
       "week": 20,
       "weekday": "Sunday",
-      "picker": "Bob",
+      "picker": "Phil",
       "game_status": "POST"
     },
     {
@@ -2373,7 +2307,7 @@
       "home_team": "DEN",
       "week": 21,
       "weekday": "Sunday",
-      "picker": "Charlie",
+      "picker": "Anders",
       "game_status": "POST"
     },
     {
@@ -2384,7 +2318,7 @@
       "home_team": "SEA",
       "week": 21,
       "weekday": "Sunday",
-      "picker": "Alice",
+      "picker": "Neil",
       "game_status": "POST"
     },
     {
@@ -2395,7 +2329,7 @@
       "home_team": "NE",
       "week": 22,
       "weekday": "Sunday",
-      "picker": "Frank",
+      "picker": "Tony",
       "game_status": "POST"
     }
   ]
