@@ -136,7 +136,7 @@ function App() {
   const useSupabase = !!(supabaseUrl && supabaseKey);
 
   const loadStaticData = () => {
-    fetch('/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(res => res.json())
       .then((jsonData: GameData) => {
         setData(jsonData);
@@ -191,7 +191,7 @@ function App() {
         };
       });
 
-      const staticRes = await fetch('/data.json');
+      const staticRes = await fetch(`${import.meta.env.BASE_URL}data.json`);
       const staticData = await staticRes.json();
       const eligible_games = staticData.eligible_games || [];
 
@@ -267,7 +267,7 @@ function App() {
       loadStaticData();
     }
 
-    fetch('/players.json')
+    fetch(`${import.meta.env.BASE_URL}players.json`)
       .then(res => res.json())
       .then((jsonPlayers: PlayersData) => {
         setPlayersData(jsonPlayers);
